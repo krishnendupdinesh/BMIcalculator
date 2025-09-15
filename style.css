@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background: linear-gradient(135deg,#74ebd5,#9face6);
+    background: linear-gradient(135deg,#141E30,#243B55); /* Dark gradient */
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
@@ -18,14 +18,16 @@ body{
     justify-content: center;
 }
 .box{
-    background: linear-gradient(135deg,#a1c4fd,#c2e9fb);
-    border-radius: 3px;
+    background: linear-gradient(135deg,#2C3E50,#4CA1AF); /* Dark glassy gradient */
+    border-radius: 8px;
     padding: 30px;
     text-align: center;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.4);
 }
 .box h1{
     margin-bottom: 20px;
-    color: #ffffff;
+    color: #f1f1f1; 
+    text-shadow: 2px 2px #141E30;
 }
 .content{
     margin-bottom: 30px;
@@ -39,24 +41,27 @@ body{
 label{
     font-size: 14px;
     font-weight: 600;
-    color: #444;;
+    color: #ddd; 
 }
 #heig,#weig,#age{
     width: 100%;
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #685f5f;
     border-radius: 10px;
+    background: #0f2a42; 
+    color: #eee;
     outline: none;
     transition: border 0.3s;
 }
 #heig:focus,#weig:focus,#age:focus{
-    border: 1px solid slateblue;
+    border: 1px solid #4f4e63;
 }
 .gender label{
     margin-right: 20px;
     font-weight: normal;
     font-size: 14px;
+    color: #aaa; 
 }
 .input,.gender,.heightweight{
     text-align: left;
@@ -71,8 +76,8 @@ label{
     flex: 1;
 }
 button{
-    background: #6c63ff;
-    color: aliceblue;
+    background: #141E30;
+    color: #f9f9f9;
     padding: 10px;
     border: none;
     border-radius: 10px;
@@ -83,30 +88,35 @@ button{
     transition: background 0.3s;
 }
 button:hover{
-    background: #574fd6;
+    background: #2C3E50;
 }
 .result{
     margin-top: 20px;
     padding: 15px;
-    background: #f4f4f4;
+    background: #1f2b3c; 
     border-radius: 10px;
 }
 .result .ans{
     font-size: 24px;
     font-weight: 600;
-    color: #6c63ff;
+    color: #4ca1af; 
     margin: 10px 0;
+    text-shadow: 2px 2px #0f2a42;
 }
 .comment{
    font-size: 16px; 
    font-weight: 600;
    margin-top: 10px;
+   color: #ddd;
 }
 .tips{
    font-size: 16px; 
    font-weight: 600;
    margin-top: 10px; 
-   color: #9face6;
+   color: #7f828d; 
    text-align: left;
    margin-left: 120px;
+}
+#pp{
+    color: #ddd;
 }
